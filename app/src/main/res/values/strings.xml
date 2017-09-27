@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Touch Pay</string>
+    <string name="main_button">Select Card</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <string name="desc_fingerprint">Please place your fingertip on the scanner to verify your identity</string>
+    <string name="note">(Fingerprint sign in makes your app login much faster. Your device should have at least one fingerprint registered in device settings)</string>
+    <string name="title_activity_home">Fingerprint</string>
+    <string name="title_fingerprint">One-touch Sign In</string>
+</resources>

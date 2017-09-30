@@ -25,18 +25,20 @@ public class MainActivity extends AppCompatActivity {
         getCardButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                cardTexttView.setText(getCardDetails().toString());
-                cardTexttView.setTextColor(Color.BLACK);
+//                cardTexttView.setText(getCardDetails().toString());
+//                cardTexttView.setTextColor(Color.BLACK);
+                Intent intent = new Intent(MainActivity.this,WebViewActivity.class);
+                startActivity(intent);
             }
         });
     }
 
-    private CardDetails getCardDetails(){
-        CardDetails cardDetails = new CardDetails();
-        cardDetails.setCardNumber("4587 7854 2654 8568");
-        cardDetails.setExpiryDate("06/22");
-        cardDetails.setNameOnCard("Akshay Jain");
-
-        return cardDetails;
-    }
+//    private CardDetails getCardDetails(){
+//        CardDetails cardDetails = new CardDetails();
+//        cardDetails.setCardNumber("4587 7854 2654 8568");
+//        cardDetails.setExpiryDate("06/22");
+//        cardDetails.setNameOnCard("Akshay Jain");
+//
+//        return cardDetails;
+//    }
 }

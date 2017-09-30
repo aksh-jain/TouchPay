@@ -8,20 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.capgemini.discover.touchpay.MainActivity"
-    tools:background="?android:attr/colorPressedHighlight">
-
-    <Button
-        android:text="@string/main_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="166dp"
-        android:id="@+id/button"
-        android:elevation="16dp"
-        android:background="@android:color/darker_gray"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:hapticFeedbackEnabled="true" />
+    tools:context="com.capgemini.discover.touchpay.MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
@@ -31,5 +18,17 @@
         android:id="@+id/textView"
         android:layout_alignParentStart="true"
         android:layout_marginLeft="50dp" />
+
+    <Button
+        android:text="@string/main_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:elevation="16dp"
+        android:background="@android:color/darker_gray"
+        android:hapticFeedbackEnabled="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="171dp" />
 
 </RelativeLayout>

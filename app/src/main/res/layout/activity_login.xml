@@ -29,7 +29,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/textPrimary"
+            android:textColor="@android:color/black"
             android:textSize="24sp"
             android:text="@string/title_fingerprint"
             android:layout_marginLeft="5dp"
@@ -40,7 +40,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/textPrimary"
+            android:textColor="@android:color/black"
             android:textSize="16sp"
             android:textAlignment="center"
             android:gravity="center"
@@ -61,7 +61,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="@color/textPrimaryDark"
+        android:textColor="@color/colorAccent"
         android:textSize="14sp"
         android:text="@string/note"
         android:layout_marginLeft="16dp"
